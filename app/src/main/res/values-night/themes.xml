@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WebView" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#2561FD</item>
+        <item name="android:statusBarColor" tools:targetApi="l" tools:ignore="ObsoleteSdkInt">?attr/colorPrimary</item>
+    </style>
+</resources>
