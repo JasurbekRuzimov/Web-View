@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void onBackPressed(){     // 2 marta Back ( < ) ni bosganda dasturdan chiqib ketish  uchun
+    public void onBackPressed(){    // 2 marta Back ( < ) ni bosganda dasturdan chiqib ketish  uchun
         if (isBackPressedOnce){
             super.onBackPressed();
             return;
