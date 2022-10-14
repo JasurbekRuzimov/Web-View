@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
         webView.getSettings().setJavaScriptEnabled(true);  //
         webView.loadUrl("https://www.google.com/");        //Kerakli saytni yozish uchun
 
-
         WebViewClient webViewClient = new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
