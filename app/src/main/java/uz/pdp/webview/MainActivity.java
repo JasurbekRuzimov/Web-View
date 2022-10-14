@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         WebView webView = findViewById(R.id.webView);      //WebView ni e'lon qilish uchun
-        webView.getSettings().setJavaScriptEnabled(true);  //
+        webView.getSettings().setJavaScriptEnabled(true);  //JavaScript ga ruxsat berish va web saytni mobil ilovaga o'tkazish
         webView.loadUrl("https://www.google.com/");        //Kerakli saytni yozish uchun
 
         WebViewClient webViewClient = new WebViewClient() {
